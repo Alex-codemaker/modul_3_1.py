@@ -1,7 +1,7 @@
 calls = 0
 def count_calls():
     global calls
-    calls = 4
+    calls = calls + 1
 def string_info(string):
     Copybara = str(string)
     result = (len(Copybara), Copybara.upper(), Copybara.lower())
@@ -24,6 +24,10 @@ print(string_info('Armagedon'))
 print(is_contains('Urban', ['ban', 'BaNaN','urBAN'])) # Urban ~ urBAN
 print(is_contains('cycle', ['recycle', 'cyclic'])) # No matches
 print(calls)
+
+
+
+
 
 
 
